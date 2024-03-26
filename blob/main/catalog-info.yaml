@@ -1,1 +1,14 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blobmain
+  title: blobmain
+  description: Component for blobmain
+  annotations:
+    github.com/project-slug: blobmain
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
